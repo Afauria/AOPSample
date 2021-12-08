@@ -1,4 +1,4 @@
-package com.afauria.sample.aop;
+package com.afauria.sample.aop.aspectj;
 
 /**
  * Created by Afauria on 12/3/21.

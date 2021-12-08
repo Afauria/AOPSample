@@ -1,10 +1,10 @@
-package com.afauria.sample.aop.checklogin;
+package com.afauria.sample.aop.aspectj.checklogin;
 
 import android.content.Context;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.afauria.sample.aop.Tools;
+import com.afauria.sample.aop.aspectj.Tools;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

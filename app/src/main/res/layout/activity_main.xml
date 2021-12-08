@@ -4,55 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/delayBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="AspectJ示例"
         android:textAllCaps="false"
-        android:text="统计方法耗时" />
+        android:textSize="16sp"
+        android:onClick="onAspectJClick"/>
 
     <Button
-        android:id="@+id/exceptionBtn"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="ViewInject注解示例"
         android:textAllCaps="false"
-        android:text="捕获异常" />
-
-    <Button
-        android:id="@+id/throwBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="抛异常" />
-
-    <Button
-        android:id="@+id/routeBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="跳转新页面" />
-
-    <Button
-        android:id="@+id/permissionBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="权限检查" />
-
-    <Button
-        android:id="@+id/argsBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="参数校验" />
-
-    <Button
-        android:id="@+id/throttleBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAllCaps="false"
-        android:text="按键节流" />
+        android:textSize="16sp"
+        android:onClick="onViewInjectClick"/>
 </LinearLayout>

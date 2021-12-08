@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.checklogin;
+package com.afauria.sample.aop.aspectj.throttle;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -8,7 +8,8 @@ import java.lang.annotation.Target;
 /**
  * Created by Afauria on 12/3/21.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface CheckLogin {
+public @interface ThrottleClick {
+    int duration() default 500;
 }

@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.trace;
+package com.afauria.sample.aop.aspectj.checkPermission;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
@@ -6,9 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Created by Afauria on 12/2/21.
+ * Created by Afauria on 12/3/21.
  */
-@Retention(RetentionPolicy.CLASS)
+@Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
-public @interface DebugTrace {
+public @interface CheckPermissions {
+    String[] value();
 }

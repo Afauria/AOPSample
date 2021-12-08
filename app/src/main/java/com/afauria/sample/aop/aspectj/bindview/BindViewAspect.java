@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.bindview;
+package com.afauria.sample.aop.aspectj.bindview;
 
 import android.app.Activity;
 import android.view.View;

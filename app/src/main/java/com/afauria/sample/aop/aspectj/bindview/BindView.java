@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.bindview;
+package com.afauria.sample.aop.aspectj.bindview;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

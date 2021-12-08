@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.throttle;
+package com.afauria.sample.aop.aspectj.throttle;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;

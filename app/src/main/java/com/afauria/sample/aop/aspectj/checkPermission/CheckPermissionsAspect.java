@@ -1,4 +1,4 @@
-package com.afauria.sample.aop.checkPermission;
+package com.afauria.sample.aop.aspectj.checkPermission;
 
 import android.app.Activity;
 import android.content.pm.PackageManager;

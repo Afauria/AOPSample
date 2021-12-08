@@ -1,4 +1,4 @@
-package com.afauria.sample.aop;
+package com.afauria.sample.aop.aspectj;
 
 import android.content.Context;
 import android.util.Log;
