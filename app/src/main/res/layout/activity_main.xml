@@ -27,4 +27,14 @@
         android:textAllCaps="false"
         android:textSize="16sp"
         android:onClick="onViewInjectClick"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="Apt自定义注解处理器示例"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:onClick="onAptClick"/>
 </LinearLayout>

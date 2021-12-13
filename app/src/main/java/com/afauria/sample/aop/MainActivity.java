@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.afauria.sample.aop.apt.AptActivity;
 import com.afauria.sample.aop.aspectj.AspectJActivity;
 import com.afauria.sample.aop.viewinject.ViewInjectActivity;
 
@@ -23,5 +24,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void onViewInjectClick(View view) {
         startActivity(new Intent(this, ViewInjectActivity.class));
+    }
+
+    public void onAptClick(View view) {
+        startActivity(new Intent(this, AptActivity.class));
     }
 }
