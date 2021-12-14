@@ -13,4 +13,6 @@
     8. 自动findViewById
     9. 点击事件节流
 2. 自定义ViewInject注解示例：运行时反射，实现findViewById功能
-3. 自定义注解+APT示例：实现findViewById功能
+3. 自定义注解+APT示例：实现资源绑定、视图绑定、事件绑定功能。[文档链接](https://blog.afauria.xyz/2021/12/08/android-2021-12-08-APT/)
+    1. 源代码拼接Java文件
+    2. JavaPoet生成Java文件
