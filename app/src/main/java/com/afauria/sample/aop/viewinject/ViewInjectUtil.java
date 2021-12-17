@@ -24,14 +24,11 @@ class ViewInjectUtil {
                 continue;
             }
             try {
-                // 获取类中的findViewById方法，参数为int
-                Method method = activityCls.getMethod("findViewById", int.class);
-                // 执行findViewById方法，返回View实例
-                Object resView = method.invoke(activity, viewId);
                 field.setAccessible(true);
+                // 执行findViewById方法，返回View实例
                 // 给字段赋值
-                field.set(activity, resView);
-            } catch (NoSuchMethodException | IllegalAccessException | InvocationTargetException e) {
+                field.set(activity, activity.findViewById(viewId));
+            } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
         }
